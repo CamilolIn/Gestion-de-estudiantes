@@ -1,0 +1,59 @@
+th, td{
+    text-align: center !important;
+    
+}
+
+.even{
+    background-color: #0288df;
+}
+
+.cont{
+    height: 40vh; 
+    border-radius: 20px !important;
+    padding: 25px !important;
+    margin: 35px auto;
+    margin-bottom: 70px;
+    background-color: transparent;
+
+}
+
+.tableCont{
+    margin: 0px !important;
+    box-shadow: 0 0 15px #0288df;
+    border-radius: 20px !important;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tableCont .link{
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black;
+    transition: all 0.5s;
+}
+.tableCont .link:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 15px black;
+}
+
+.tableCont th{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-shadow: rgba(0, 0, 0, 0.5);
+    background-color: black;
+    
+}
+
+.tableCont .rowStart{
+    border-radius: 20px 0 0 0;
+}
+.tableCont .rowEnd{
+    border-radius: 0 20px 0 0;
+}

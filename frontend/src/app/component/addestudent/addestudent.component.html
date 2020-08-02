@@ -1,0 +1,34 @@
+<h2 class="titleP">{{title}}</h2>
+<div class="container contForm" *ngIf='student'>
+        <form #studentForm='ngForm' (ngSubmit)='onSubmit(studentForm)'>
+
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" #nombre="ngModel" [(ngModel)]='student.nombre' required>
+            </div>
+            <div>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" #apellido="ngModel" [(ngModel)]='student.apellido' required>
+            </div>
+            <div>
+                <label for="edad">Edad: </label>
+                <input type="text" name="edad" #edad="ngModel" [(ngModel)]='student.edad' required>
+            </div>
+            <div>
+                <label for="correo">Correo: </label>
+                <input type="text" name="correo" #correo="ngModel" [(ngModel)]='student.correo' required>
+            </div>
+            <div>
+                <label for="direccion">Direccion: </label>
+                <input type="text" name="direccion" #direccion="ngModel" [(ngModel)]='student.direccion' required>
+            </div>
+            <div>
+                <label for="telefono">Telefono: </label>
+                <input type="text" name="telefono" #telefono="ngModel" [(ngModel)]='student.telefono' required>
+            </div>
+            <div>
+                <input type="submit" class="botonGen" value="ENVIAR">
+            </div>
+
+        </form>
+</div>

@@ -1,0 +1,68 @@
+.contInfo{
+    margin: 35px auto;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #0288df;
+    padding: 20px;
+}
+
+.title{
+    color: #0288df;
+    text-shadow: 0 0 10px #0288df;
+    letter-spacing: 1.5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+span{
+    color: #0288df;
+}
+
+.btnStyleadad{
+    margin: 10px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.btnStyleadad:hover{
+    transform: scale(1.1,1.1);
+}
+.contBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    display: block;
+    padding: 15px 44px;
+    margin: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-shadow: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.boton.delete{
+    background-color: rgb(253, 52, 52);
+    transition: all 0.5s;
+}
+
+.boton.update{
+    background-color: #0288df;
+    transition: all 0.5s;
+}
+
+.boton.delete:hover, .boton.update:hover{
+    transform: scale(1.1,1.1);
+
+}

@@ -1,0 +1,39 @@
+
+
+<div class="container contInfo">
+    <div class="title">
+        <h1 >ESTUDIANTE</h1>
+    </div>
+    
+
+    <div>
+        <h4 class="subtitle">Nombre: <span>{{student.nombre}}</span></h4>
+   
+    </div>
+    <div>
+        <h4 class="subtitle">Apellido: <span>{{student.apellido}}</span></h4>
+        
+    </div>
+    <div> 
+        <h4 class="subtitle">Edad: <span>{{student.edad}}</span></h4>  
+        
+    </div>
+    <div>
+        <h4 class="subtitle">Correo: <span>{{student.correo}}</span></h4>
+        
+    </div>
+    <div>
+        <h4 class="subtitle">Direccion: <span>{{student.direccion}}</span> </h4>
+        
+    </div> 
+    <div>
+        <h4 class="subtitle">Telefono: <span>{{student.telefono}}</span></h4>
+        
+    </div> 
+
+    <div class="contBtn">
+        <a (click)='deleteStudent(student._id)' class="boton delete">Borrar</a>
+        <a [routerLink]="['/editStudent', student._id ]" class="boton update">Actualizar</a>
+    </div>
+
+</div>

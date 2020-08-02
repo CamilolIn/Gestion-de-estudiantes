@@ -1,0 +1,24 @@
+<div class="container cont">
+
+    <table style="width:100%" class="tableCont">
+        <tr>
+          <th class="rowStart">Nombre</th>
+          <th>Apellido</th>
+          <th>Edad</th>
+          <th>Correo</th>
+          <th>Direccion</th>
+          <th>Telefono</th>
+          <th class="rowEnd">Accion</th>
+        </tr>
+        <tr *ngFor='let student of students; let even = even' [ngClass]="{ odd: odd, even: even }">
+          <td>{{student.nombre}}</td>
+          <td>{{student.apellido}}</td>
+          <td>{{student.edad}}</td>
+          <td>{{student.correo}}</td>
+          <td>{{student.direccion}}</td>
+          <td>{{student.telefono}}</td>
+          <td><a [routerLink]="['/detstudent', student._id]" class="link">VER MAS</a></td>
+        </tr>
+      </table>
+
+</div>

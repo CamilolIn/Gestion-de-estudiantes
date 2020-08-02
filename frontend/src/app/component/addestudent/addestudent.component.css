@@ -1,0 +1,49 @@
+.contForm{
+    box-shadow: 0 0 15px #0288df !important;
+    border-radius: 20px !important;
+    padding: 25px !important;
+    margin: 35px auto;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titleP{
+    color: #0288df;
+    text-shadow: 0 0 3px #0288df;
+    letter-spacing: 1.5px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+label{
+    color: #0288df;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+input[type="text"]{
+    color: white;
+    font-weight: bold;
+}
+
+.botonGen{
+    padding: 15px 40px;
+    margin-top: 15px;
+    background-color: #0288df;
+    color: white;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 15px #0287df44;
+    outline: none;
+    border: none;
+    box-shadow:0 0 15px #0287df44;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+.botonGen:hover{
+    transform: scale(1.1,1.1);
+}
+

@@ -1,0 +1,22 @@
+.active{
+    background-color: #0288df;
+}
+
+.navcont, .footer{
+    background-color: rgba(0, 0, 0, 0.3) ;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7) ;
+}
+
+.footerBootom{
+    background-color: black !important;
+}
+
+.logoGen{
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 5px #0288df;
+    font-weight: bold;
+}
+
+
+
+

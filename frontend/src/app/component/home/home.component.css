@@ -1,0 +1,10 @@
+.cont{
+    height: 51vh;
+}
+
+.titleP{
+    color: #0288df;
+    text-shadow: 0 0 30px #0287df44;
+    padding: 20px;
+    font-weight: bold;
+}
